@@ -1,0 +1,194 @@
+@import "resets.scss";
+@import "mixins.scss";
+@import "layout.scss";
+@import "theme.scss";
+
+/*!////////////////////////////////////////////////
+// MODULES
+/////////////////////////////////////////////////*/
+.slide-wrap{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+}
+.people-slider{
+	position: relative;
+	width: 100%;
+	max-height: 100%;
+	> img{
+		width: 100%;
+	}
+	&:after{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 10px;
+		background-color: #ff7900;
+
+	}
+}
+.person-block{
+	width: 16.6666667%;
+	float: left;
+	border: 1.5px solid #18b3ec;
+	img{
+		width: 100%;
+	}
+	&:hover{
+		background-position: -100% top;
+	}
+	@media screen and (min-width: 600px){
+		width: 12.5%;
+	}
+	@media screen and (min-width: 900px){
+		width: 8.333333%;
+	}
+}
+.people-wrap{
+	position: absolute;
+	top: 0;
+}
+.corrin{
+	background-image: url('../img/corrin-sprite.jpg');
+	background-size: 200%;
+} 
+.abby{
+	background-image: url('../img/abby-sprite.jpg');
+	background-size: 200%;
+} 
+.amanda{
+	background-image: url('../img/amanda-sprite.jpg');
+	background-size: 200%;
+} 
+.barbra{
+	background-image: url('../img/barbra-sprite.jpg');
+	background-size: 200%;
+} 
+.debb{
+	background-image: url('../img/debb-sprite.jpg');
+	background-size: 200%;
+} 
+.gayle{
+	background-image: url('../img/gayle-sprite.jpg');
+	background-size: 200%;
+} 
+.jason{
+	background-image: url('../img/jason-sprite.jpg');
+	background-size: 200%;
+} 
+.jen{
+	background-image: url('../img/jen-sprite.jpg');
+	background-size: 200%;
+} 
+.jillian{
+	background-image: url('../img/jillian-sprite.jpg');
+	background-size: 200%;
+} 
+.karen{
+	background-image: url('../img/karen-sprite.jpg');
+	background-size: 200%;
+} 
+.kurt{
+	background-image: url('../img/kurt-sprite.jpg');
+	background-size: 200%;
+} 
+.kyle{
+	background-image: url('../img/kyle-sprite.jpg');
+	background-size: 200%;
+} 
+.larry{
+	background-image: url('../img/larry-sprite.jpg');
+	background-size: 200%;
+} 
+.mallorie{
+	background-image: url('../img/mallorie-sprite.jpg');
+	background-size: 200%;
+} 
+.olivia{
+	background-image: url('../img/olivia-sprite.jpg');
+	background-size: 200%;
+} 
+.paige{
+	background-image: url('../img/paige-sprite.jpg');
+	background-size: 200%;
+} 
+.paul{
+	background-image: url('../img/paul-sprite.jpg');
+	background-size: 200%;
+} 
+.phil{
+	background-image: url('../img/phil-sprite.jpg');
+	background-size: 200%;
+} 
+.presley{
+	background-image: url('../img/presley-sprite.jpg');
+	background-size: 200%;
+} 
+.rachaelL{
+	background-image: url('../img/rachaell-sprite.jpg');
+	background-size: 200%;
+} 
+.rachaelT{
+	background-image: url('../img/rachaelt-sprite.jpg');
+	background-size: 200%;
+} 
+.rob{
+	background-image: url('../img/rob-sprite.jpg');
+	background-size: 200%;
+} 
+.rose{
+	background-image: url('../img/rose-sprite.jpg');
+	background-size: 200%;
+} 
+.scott{
+	background-image: url('../img/scott-sprite.jpg');
+	background-size: 200%;
+} 
+.shamara{
+	background-image: url('../img/shamara-sprite.jpg');
+	background-size: 200%;
+} 
+.terri{
+	background-image: url('../img/terri-sprite.jpg');
+	background-size: 200%;
+} 
+.chelsea{
+	background-image: url('../img/chelsea-sprite.jpg');
+	background-size: 200%;
+} 
+.kallie{
+	background-image: url('../img/kallie-sprite.jpg');
+	background-size: 200%;
+} 
+.kelly{
+	background-image: url('../img/kelly-sprite.jpg');
+	background-size: 200%;
+} 
+.matt{
+	background-image: url('../img/matt-sprite.jpg');
+	background-size: 200%;
+} 
+.sam{
+	background-image: url('../img/sam-sprite.jpg');
+	background-size: 200%;
+} 
+.stacy{
+	background-image: url('../img/stacy-sprite.jpg');
+	background-size: 200%;
+} 
+.tony{
+	background-image: url('../img/tony-sprite.jpg');
+	background-size: 200%;
+} 
+
+/*!////////////////////////////////////////////////
+// STATES
+/////////////////////////////////////////////////*/
+
+
+
+@import "shame.scss";
+@import "helpers.scss";
